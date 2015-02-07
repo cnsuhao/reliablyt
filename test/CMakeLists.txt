@@ -1,0 +1,5 @@
+PROJECT(test)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6) 
+
+ADD_SUBDIRECTORY(test_udp\\client)
+ADD_SUBDIRECTORY(test_udp\\server)
